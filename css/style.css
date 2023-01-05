@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*header*/
+header{
+    padding: 16px 0px 15px;
+    position: relative;
+}
+.container{
+    max-width: 1064px;
+    margin: auto;
+}
+header .logo{
+    position: absolute;
+    left: calc(50% - 40px);
+}
+.d-flex{
+    display: flex;
+}
+.items-center{
+    align-items:center;
+}
+.space-between{
+    justify-content: space-between;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav ul li{
+    margin-right: 28px;
+}
+header nav ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1B1B;
+    text-decoration: none;
+}
+.header_links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+/*section*/
+.fall_section{
+    background: #F0EFEB;
+
+}
+.fall_container{
+
+    max-width: 1064px;
+    min-height:534px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.fall_container h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+
+}
+.fall{
+    max-width: 534px;
+}
+.fall p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-top: 42px;
+}
+.fall_btn{
+    padding-top: 26px;
+}
+.fall_button{
+    background: #000000;
+    border-radius: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    padding: 7px 23px 7px 23px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+/*our_guides*/
+
+.our_guides{
+    padding-top: 60px;
+    padding-bottom: 248px;
+
+}
+.our_guides_container{
+    max-width: 1064px;
+    margin: auto;
+}
+.our_guides_text{
+    text-align: center;
+}
+.our_guides_text h2{
+    padding-bottom: 27px;
+}
+.our_guides_text p {
+    padding-bottom: 47px;
+}
+.our_guides_title h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    padding-bottom: 52px;
+    color: #000000;
+
+
+}
+.our_guides_article{
+    display: flex;
+    justify-content: space-between;
+    text-align: -webkit-center;
+
+
+}
+.our_guides_article article h5{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 17px;
+    max-width: 150px;
+}
+
+.our_guides_article article span{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 10px;
+
+
+}
+.our_guides_article article a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+
+}
+
+.our_guides_article article div{
+    padding-bottom: 10px;
+}
+.our_guides_article .img_first{
+    padding-bottom: 27px;
+}
+
+.our_guides_article .img_second{
+    padding-bottom: 20px;
+}
+.our_guides_article .img_third{
+    padding-bottom: 19px;
+}
